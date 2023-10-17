@@ -1,3 +1,7 @@
 #!/usr/bin/env bash
 
-pandoc --output=presentation.pdf --slide-level=2 -s -t beamer presentation.md
+set -eu
+
+mkdir -p build
+
+pandoc --output=build/presentation.pdf --slide-level=2 -s -t beamer presentation.md
