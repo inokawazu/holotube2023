@@ -10,8 +10,8 @@ themeoptions:
 urlcolor: blue
 toc: true
 ---
-    <!-- - footline=authorinstitutetitle -->
 
+<!-- - footline=authorinstitutetitle -->
 <!-- In the realm of strongly-coupled systems, holography, has emerged as an invaluable tool for investigating hydrodynamical properties of strongly coupled fluids, like quark gluon plasmas. Based on recent work, this talk will present the findings about properties of strongly-coupled rotating fluids found with holography. The methods used will also be presented. In particular, we use a spinning black hole background in 5D AdS, AdS Myers-Perry black holes, as the gravitational dual of some strongly-coupled rotating fluid. As such, we have results of the field theory side (fluid results) and results of the gravity side. The fluid results cover findings pertaining to the unique features of the hydrodynamic and non-hydrodynamic regimes. This includes applicability of hydrodynamics at large temperatures and the effect of rotation on non-hydrodynamic modes at all temperatures. Gravity results include a new look at the stability of the AdS Myers-Perry solution and the dynamics of linear gravitation perturbations. -->
 
 # Overview
@@ -24,15 +24,35 @@ Original Article **[Relativistic Hydrodynamics under Rotation: Prospects & Limit
 
 # "Gravity Side"
 
-Some text about the gravity side.
+*Action here*
 
-## 5D AdS Myers-Perry Black Hole
+*Symmetries of the background here*
+
+## 5D AdS Myers-Perry Black Hole {.allowframebreaks}
+
+*Something about metric here.*
+
+$$(t, \theta, \phi, \psi, r)$$
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+## Gravitational Perturbations
+
+*symmetries*
+
+*gravitation perturbations*
+
+*gravitation perturbations*
+
+*gravitation perturbation bcs*
+
+*frequencies and momentum variables*
 
 # Field Theory Side
 
 Some text about the field theory side.
+
+*Explain field theory*
 
 ## The Hydrodynamic Description
 
@@ -59,21 +79,53 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
-## $\mathcal K = \mathcal J$ Tensor Fluctuations
+## $\mathcal K = \mathcal J$ Tensor Fluctuations {.squeeze}
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+![a = 0 Tensor Modes](figures/Tensor_rp_10_grid_50_a_0.pdf){ width=75% }
+
+------------------------------
+
+![a = 1/2 Tensor Modes](figures/Tensor_rp_10_grid_50_a_1_2.pdf){ width=75% }
+
+------------------------------
+
+![a = 9/10 Tensor Modes](figures/Tensor_rp_10_grid_50_a_9_10.pdf){ width=75% }
 
 ## $\mathcal K = \mathcal J - 1$ Vector Fluctuations
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+![a = 0 Vector Modes](figures/Vector_rp_10_grid_45_a_0.pdf){ width=75% }
+
+------------------------------
+
+![a = 1/2 Vector Modes](figures/Vector_rp_10_grid_45_a_1_2.pdf){ width=75% }
+
+------------------------------
+
+![a = 9/10 Vector Modes](figures/Vector_rp_10_grid_45_a_9_10.pdf){ width=75% }
 
 ## $\mathcal K = \mathcal J - 2$ Scalar Fluctuations
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+![a = 0 Scalar Modes](figures/scalar_ef_spherical_a0.pdf){ width=75% }
+
+------------------------------
+
+![a = 1/2 Scalar Modes](figures/scalar_ef_spherical_a1_2.pdf){ width=75% }
+
+------------------------------
+
+![a = 9/10 Scalar Modes](figures/scalar_ef_spherical_a9_10.pdf){ width=75% }
 
 ## Cross Spectrum Comparisons
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+![](figures/all_sectors_compared_ef_spherical_over_a0.pdf){ width=100% }
+:::
+::: {.column width="50%"}
+![](figures/all_sectors_compared_ef_spherical_over_a1_2.pdf){ width=100% }
+:::
+::::::::::::::
 
 ## The Emergence of Hydrodynamics
 
