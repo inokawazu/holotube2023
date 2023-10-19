@@ -4,4 +4,4 @@ set -eu
 
 mkdir -p build
 
-pandoc --output=build/presentation.pdf --slide-level=2 -s -t beamer presentation.md
+pandoc --output=build/presentation.pdf --slide-level=2 -s  -t beamer+raw_tex presentation.md
