@@ -383,7 +383,18 @@ To see the emergence of hydrodynamics, we fitted the data to \eqref{eq:hydrofit}
 
 ## Stability
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+:::::::::::::: {.columns align=center}
+::: {.column width="40%"}
+It's well known that the MPAdS5D solution suffers from superadiant instabilities ([Murata 2009][murata2009]).
+
+We find agreement with the above paper.
+
+This instability is signaled by boundary turing from timelike surface to a spacelike surface.
+:::
+::: {.column width="60%"}
+![$\mathcal{J} = 5$ frequencies, zoomed in. Positive imaginary modes are unstable.](figures/tensor_unstable_modes_vs_a_J5.pdf){height=70%}
+:::
+::::::::::::::
 
 ## RFP (Read the Fantastic Paper!)
 
@@ -416,3 +427,4 @@ I would also like to thank collaborators, _Mathias_, _Casey_, and _Jackson_, on 
 [amano2023]:https://arxiv.org/abs/2308.11686
 [wald1984]:https://inspirehep.net/literature/209356 
 [natuume2014]:https://inspirehep.net/literature/1316320
+[murata2009]:https://doi.org/10.1143/PTP.121.1099
