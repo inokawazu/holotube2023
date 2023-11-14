@@ -106,7 +106,7 @@ Simply Spinning
 
 ---------------------------------------
 
-The enhanced symmetry can be used reduce the \eqref{eq:pertgenericeom} to ODEs wih \eqref{eq:Dual_Vectors_SU_2} && \eqref{eq:kvfsu2}.
+The enhanced symmetry can be used reduce the \eqref{eq:pertgenericeom} to ODEs wih \eqref{eq:Dual_Vectors_SU_2} and \eqref{eq:kvfsu2}.
 
 \begin{align}\label{eq:Dual_Vectors_SU_2}
   \sigma_1 & = -\sin{\psi}\,\partial_\theta + \frac{\cos{\psi}}{\sin{\theta}}\,\partial_\phi - \cos{\theta} \sin{\phi}\,\partial_\psi\, ,\nonumber\\
