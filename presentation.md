@@ -352,9 +352,34 @@ Non-Hydrodynamic Modes
 
 ## The Emergence of Hydrodynamics
 
-\begin{equation}
+To study the dispersion relations of the lowest gapless modes, we looked at the momentum diffusion sector. 
+
+We solved spectra for $r_+ = \{10, 100, 1000, 10^4 , 10^5 , 10^6 , 10^7 \}$ and $\mathcal J = 0, 1/2, 1, \ldots, \mathcal J_\mathrm{max}$.[^jmax]
+
+[^jmax]: $\mathcal J_\mathrm{max}/r_+ = \mathit j_\mathrm{max} = 0.1$
+
+To see the emergence of hydrodynamics, we fitted the data to \eqref{eq:hydrofit}.
+
+\begin{equation} \label{eq:hydrofit}
     \omega = v \mathcal J^\beta - i D \mathcal J^\alpha
 \end{equation}
+
+---------------------------------
+
+
+![](figures/vector_dispersive_mode_rp_vs_diffusion_over_a_scaled_Jleq0_1.pdf){ width=100% }
+
+--------------------------------
+
+![](figures/vector_dispersive_mode_rp_vs_im_scaling_over_a_scaled_Jleq0_1.pdf){ width=100% }
+
+--------------------------------
+
+![](figures/vector_dispersive_mode_rp_vs_re_scaling_over_a_scaled_Jleq0_1.pdf){ width=100% }
+
+--------------------------------
+
+![](figures/vector_dispersive_mode_rp_vs_soundspeed_over_a_scaled_Jleq0_1.pdf){ width=100% }
 
 ## Stability
 
