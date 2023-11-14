@@ -196,17 +196,98 @@ $\mathcal O$ is the corresponding to the bulk field, $\phi$, and its boundry val
 
 We would like know about resonancing of field theory system corresponding to the rotating black hole.
 
-Some text about the field theory side.
+---------------------------------
 
-*Explain field theory*
+\label{slide:field_theory_side}
+
+For metric perturbations, $h_{\mu\nu}$ on the gravity side the corresponding operator is the stress energy tensor of the field theory. 
+With a bulk dimension of $4+1$D, metric perturbations, can be expanded with the two linearly independent solutions [^hcdim].
+
+\begin{equation}
+h_{\mu\nu} \sim r^2 h^{\mathrm{(0)}}_{\mu\nu} - r^{-2} h^{\mathrm{(1)}}_{\mu\nu}
+\end{equation} 
+
+- $h^{\mathrm{(0)}}_{\mu\nu}$ $\leftrightarrow$ source of $\delta T$.
+- $h^{\mathrm{(1)}}_{\mu\nu}$ $\leftrightarrow$ VEV of $\delta T_{\mu\nu} \equiv \langle \delta T_{\mu\nu} \rangle$.
+
+[^hcdim]: The difference in powers, $2 -(-2) = 4$, is the conformal dimension of the field theory operator.
+
+$h^{\mathrm{(0)}}_{\mu\nu} = 0$
+: Sourceless boundary condition.
 
 ## The Hydrodynamic Description
 
-hydro hydro hydro
+Hydrodynamics is an effective field theory that models conserved quantities as a fluid.
 
-# Using the Duality
+A Hydrodynamical theory is based of a conservation equations and constitutive equations.
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Conservation Equations
+: $\nabla_\mu T^{\mu\nu} \stackrel{\mathrm{flat}}{=} \partial_\mu T^{\mu\nu} \stackrel{\mathrm{Fourier}}{=} ik_{\mu} T^{\mu\nu}$
+
+Constitutive Equations[^conseq]
+: $T_{\mu\nu} = \epsilon u^\mu u^\nu + P \Pi^{\mu\nu} + \pi^{\mu\nu} + ... = \left( T^{\mathrm{(0)}}\right)^{\mu\nu} + \delta T^{\mu\nu}$
+<!-- [^conseq] -->
+<!-- : $T_{\mu\nu} = \sum_{a=0} T^{(a)}_{\mu\nu \sigma_0\ldots \sigma_a} k^{\sigma_0} \ldots k^{\sigma_a} = \epsilon u^\mu u^\nu + P \Pi^{\mu\nu} + \pi^{\mu\nu} + ... = T^{\mathrm{(0)}}_{\mu\nu} + \delta T_{\mu\nu}$ -->
+
+Hydro Variables
+: $u^\mu$
+
+<!-- [^conseq]: This is the hydrodynamic expansion. $T^{(a)}_{\mu_0\ldots \mu_a}$ is the $a^{\mathrm{th}}$ expansion in gradients. -->
+[^conseq]: $u^\mu$ is the hydrodynamic velocity vairable that points in the forward time direction. $\Pi := u^{\mu}u^{\nu} + \eta^{\mu\nu}$.
+
+-------------------------------
+
+\label{slide:eigen}
+
+<!-- Assuming we can perform a Fourier transformation $u^\mu \stackrel{\mathrm{Fourier}}{=} u^\mu e^{k_\nu x^\nu}$. -->
+
+Truncating the constitutive equation to some order (in gradients) we have a generically non-linear eigenvalue problem.
+
+Order 0 (Ideal Hydro)
+: $\epsilon u^\mu u^\nu + P \Pi^{\mu\nu}$ (solution $u = (1,0,0,0)$)
+
+Order 1 (First Order Hydro)
+: $\partial_\mu \pi^{\mu\nu} \stackrel{\mathrm{Fourier}}{=} ik_{\mu}\pi^{\mu\nu} = 0$
+
+Higher Order
+: And so on...
+
+<!-- Combining the conservation and constitutive equations (at first order). -->
+
+<!-- \begin{equation} -->
+<!-- ik_{\mu} T^{\mu\nu} = \text{zeroth order is solved} + ik_{\mu} {\delta T}^{\mu\nu} = 0 -->
+<!-- \end{equation} -->
+
+<!-- Non-linear Eigenvalue Problem[^kcomp] -->
+<!-- : Find $\omega$ such that for a given $\vec{k}$, $\omega {\delta T}^{t\nu} + k_i {\delta T}^{i\nu} = 0$ and $\delta T \neq 0$ -->
+
+<!-- [^kcomp]: $k \equiv (\omega, \vec{k})$ -->
+
+<!-- #### Why non-linear?!{.alert} -->
+
+<!-- ${\delta T}^{t\nu}$ and ${\delta T}^{i\nu}$ have generically non-trivial dependence on $\vec{k}$ and $\omega$. -->
+
+## Hydrodynamic Modes
+
+In general the eigenvalue problems on Slide \pageref{slide:eigen} implicitly defines $\omega$ as a function of $|k|$[^sym].
+
+\begin{equation}
+\omega = \sum_{a=0} \omega_{a} |k|^{a}
+\end{equation}
+
+Hydrodynamic Modes
+: $\omega^{(0)} = 0$
+
+Non-Hydrodynamic Modes
+: $\omega^{(0)} \neq 0$
+
+[^sym]: Assuming we can rotate globally to align $k$ to any direction.
+
+# Putting the Review Altogether
+
+1. Pick a AAdS gravity solution (dual to some strongly rotating plasma)
+2. Gravitationally linearize and solve for $\omega$ in the quasinormal modes that obey the correct BCs.
+3. Analyze the spectrum and compare with hydrodynamics (and non-hydrodynamics?)
 
 # Results
 
@@ -220,10 +301,6 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 <!-- TODO Explain non-extremal rotation. -->
 - Stability
 <!-- TODO Needs a hydrodynamic result: use old result -->
-
-## Non-Hydrodynamic Modes
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
 ## $\mathcal K = \mathcal J$ Tensor Fluctuations {.squeeze}
 
