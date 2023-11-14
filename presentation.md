@@ -170,15 +170,21 @@ Scalar
 
 ## Quasinormal Modes
 
-The quasinormal modes (dual to retarted Greens) are defined as non-trivial solutions to \eqref{eq:pertgenericeom} and obey the two boundary conditions, ingoing at the horizon and sourceless at the AdS Boundary.
+The quasinormal modes [^greens] are defined as **non-trivial** solutions to linearized Einstein equations \eqref{eq:pertgenericeom} and obey the two boundary conditions.
 
-For a given sector:
+### BCs
+
+- Ingoing at the horizon
+- Sourceless at the AdS Boundary (a Dirichlet boundary condition, Slide: \pageref{slide:field_theory_side})
+
+[^greens]: They are dual to the poles of retarted Greens functions
+
+### Parameters
 
 - $\mathcal J = 0, 1/2, 1, 2, \ldots$ is the discrete (angular) momentum. 
 - $\omega_{ \mathcal J }$ are discrete frequencies such that he BCs are fulfilled.
 
 # "Field Theory Side"
-
 
 
 GKP-Witten Relation ([Natuume 2014][natuume2014])
