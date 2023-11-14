@@ -80,7 +80,9 @@ Simply Spinning
 : Enhance the symmetry with a certain subset of variables $a=b$.
 
 \begin{equation}\label{eq:Simple_Spin_MP_Metric}
-    d s^2=\frac{{dr}^2}{G(r)}-dt^2 \left(\frac{r^2}{\ell^2}+1\right)+\frac{1}{4} r^2 \left((\sigma^1)^2+(\sigma^2)^2+(\sigma^3)^2\right) +\frac{2 \mu  \left(\frac{a \sigma^3}{2}+dt\right)^2}{r^2}
+\begin{aligned}
+    d s^2=\frac{{dr}^2}{G(r)}-dt^2 \left(\frac{r^2}{\ell^2}+1\right)+\frac{1}{4} r^2 \left((\sigma^1)^2+(\sigma^2)^2+(\sigma^3)^2\right) \\ +\frac{2 \mu  }{r^2} \left(\frac{a \sigma^3}{2}+dt\right)^2
+\end{aligned}
 \end{equation}
 
 - Cooridnates: $(t, \theta, \phi, \psi, r)$
