@@ -71,7 +71,7 @@ ds^2&=\frac{\left(1+r_H^2\ell^{-2}\right)}{\rho ^2 r_H^2} \left(a b \mathrm{d} t
     &+\frac{\Delta_\theta \sin ^2(\theta_H )}{\rho ^2} \left(a \mathrm{d} t_H-\frac{ a^2+r_H^2}{\Xi_a}\mathrm{d} \phi_H\right)^2+\frac{\Delta_\theta \cos ^2(\theta_H )}{\rho ^2}  \left(b \mathrm{d} t_H-\frac{ b^2+r_H^2}{\Xi_b}\mathrm{d} \psi_H\right)^2
 \end{align}
 
-- Cooridnates $(t_H, \theta_H, \phi_H, \psi_H, r_H)$
+- Coordinates $(t_H, \theta_H, \phi_H, \psi_H, r_H)$
 - Angular momentum parameters of $a$ and $b$.
 
 -------------------------
@@ -123,7 +123,7 @@ and $W_a := \xi_a$. The Casimir operator can be written out as $L^2 = L_aL_a$.
 
 ---------------------------------------
 
-We can now construct the to be angular parts of the perturbation with a compatible subset of these operators which obey some given eigenvalue problems, $L^2, L_3, W_3$.
+We can now construct the angular parts of the perturbation with a compatible subset of these operators which obey some given eigenvalue problems, $L^2, L_3, W_3$.
 
 \begin{align}\label{eq:wigeigenequations}
    L^2 D^\mathcal{J}_{\mathcal{KM}}&=\mathcal{J}(\mathcal{J}+1)D^\mathcal{J}_{\mathcal{KM}}\nonumber\\
@@ -139,7 +139,7 @@ $$\lsigma^i=(\exd t, \sigma^+,\sigma^-,\sigma^3,\exd r)$$
 ## Perturbation Sectors
 
 \begin{equation}\label{eq:pertsimplygeneric}
-    h_{\mu\nu} = \int d\omega e^{-i\omega t} \sum_{\mathcal{J} = 0} \sum_{\mathcal{M}=\mathcal{J}}^{\mathcal{J}} \sum_{\mathcal{K'}=-(\mathcal{J}+2)}^{\mathcal{J}+2} h_{i j}(r,\omega, \mathcal{J},\mathcal{M},\mathcal{K}') \lsigma^i_{\mu} \lsigma^j_{\nu} D_{\mathcal{K'}-Q(\lsigma^{i})-Q(\lsigma^{j}) \mathcal{M}}^\mathcal{J}
+    h_{\mu\nu} = \int d\omega e^{-i\omega t} \sum_{\mathcal{J} = 0} \sum_{\mathcal{M}=\mathcal{-J}}^{\mathcal{J}} \sum_{\mathcal{K'}=-(\mathcal{J}+2)}^{\mathcal{J}+2} h_{i j}(r,\omega, \mathcal{J},\mathcal{M},\mathcal{K}') \lsigma^i_{\mu} \lsigma^j_{\nu} D_{\mathcal{K'}-Q(\lsigma^{i})-Q(\lsigma^{j}) \mathcal{M}}^\mathcal{J}
 \end{equation}
 
 $Q$ is the, $W_3$, angular momentum charge of the the **$i$**th basis.
@@ -149,6 +149,7 @@ $Q$ is the, $W_3$, angular momentum charge of the the **$i$**th basis.
 \end{equation*}
 
 Plugging \eqref{eq:pertsimplygeneric} in to \eqref{eq:pertgeneric}:
+
 - The perturbations of different $((\mathcal J, \mathcal M), \mathcal K')$ decouple
 - The angular momentum quantum parameter, $\mathcal M$, does not appear in the equations.
 - Perturbations are non-trivially labeled by $(\mathcal J, \mathcal K')$
@@ -269,7 +270,7 @@ Higher Order
 
 ## Hydrodynamic Modes
 
-In general the eigenvalue problems on Slide \pageref{slide:eigen} implicitly defines $\omega$ as a function of $|k|$[^sym].
+The generalized eigenvalue problem implicitly defines $\omega$ as a function of $|k|$[^sym].
 
 \begin{equation}
 \omega = \sum_{a=0} \omega_{a} |k|^{a}
