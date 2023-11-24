@@ -284,14 +284,14 @@ Higher Order
 The generalized eigenvalue problem implicitly defines $\omega$ as a function of $|k|$. [^sym]
 
 \begin{equation}
-\omega = \sum_{a=0} \omega_{a} |k|^{a}
+\omega = \sum_{a=0} \Omega_{a} |k|^{a}
 \end{equation}
 
 Hydrodynamic Modes
-: $\omega^{(0)} = 0$
+: $\left.\omega\right\vert_{|k| = 0} = 0$
 
 Non-Hydrodynamic Modes
-: $\omega^{(0)} \neq 0$
+: $\left.\omega\right\vert_{|k| = 0} \neq 0$
 
 [^sym]: Assuming we can rotate globally to align $k$ to any direction.
 
