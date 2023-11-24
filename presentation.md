@@ -29,22 +29,13 @@ Study of...
 - aspects of (Topo. $S^n$) Black Holes in AdS and
 - the dual conformal plasma.
 
-<!-- - Methods -->
-<!--     - --> 
-<!--     - test 2 -->
-<!-- - About the results -->
-<!-- - Outlook? -->
-
 :::
 ::: {.column width="60%"}
 \begin{center}
-    \animategraphics[loop,autoplay,width=0.8\textwidth]{10}{build/tensor_dance_v2-}{0}{121}
+    \animategraphics[loop,autoplay,width=\textwidth]{10}{build/tensor_dance_v2-}{0}{121}
 \end{center}
 :::
 ::::::::::::::
-
-<!-- - footline=authorinstitutetitle -->
-<!-- In the realm of strongly-coupled systems, holography, has emerged as an invaluable tool for investigating hydrodynamical properties of strongly coupled fluids, like quark gluon plasmas. Based on recent work, this talk will present the findings about properties of strongly-coupled rotating fluids found with holography. The methods used will also be presented. In particular, we use a spinning black hole background in 5D AdS, AdS Myers-Perry black holes, as the gravitational dual of some strongly-coupled rotating fluid. As such, we have results of the field theory side (fluid results) and results of the gravity side. The fluid results cover findings pertaining to the unique features of the hydrodynamic and non-hydrodynamic regimes. This includes applicability of hydrodynamics at large temperatures and the effect of rotation on non-hydrodynamic modes at all temperatures. Gravity results include a new look at the stability of the AdS Myers-Perry solution and the dynamics of linear gravitation perturbations. -->
 
 ## "Gravity Side"
 
@@ -64,12 +55,6 @@ Rotating black holes are axisymmetric
     \rightsquigarrow R \times SO(2)\times SO(2)$**
 - 5D flat rotating black hole kerr: stationary and axiosymmetric: 
     $\mathbb R \times SO(2)\times SO(2)$
-
-<!-- ::: notes -->
-<!-- Stationary -->
-
-<!-- : A time symmetric spacetime where there exists an everywhere time like unit timelike vector. -->
-<!-- ::: -->
 
 $SO(2)\times SO(2) \longrightarrow$ there are two axial angular momenta.
 
@@ -239,8 +224,6 @@ Conservation Equations
 
 Constitutive Equations[^conseq]
 : $T_{\mu\nu} = \epsilon u^\mu u^\nu + P \Pi^{\mu\nu} + \pi^{\mu\nu} + ... = \left( T^{\mathrm{(0)}}\right)^{\mu\nu} + \delta T^{\mu\nu}$
-<!-- [^conseq] -->
-<!-- : $T_{\mu\nu} = \sum_{a=0} T^{(a)}_{\mu\nu \sigma_0\ldots \sigma_a} k^{\sigma_0} \ldots k^{\sigma_a} = \epsilon u^\mu u^\nu + P \Pi^{\mu\nu} + \pi^{\mu\nu} + ... = T^{\mathrm{(0)}}_{\mu\nu} + \delta T_{\mu\nu}$ -->
 
 Hydro Variables
 : $u^\mu$
@@ -251,8 +234,6 @@ Hydro Variables
 -------------------------------
 
 \label{slide:eigen}
-
-<!-- Assuming we can perform a Fourier transformation $u^\mu \stackrel{\mathrm{Fourier}}{=} u^\mu e^{k_\nu x^\nu}$. -->
 
 Truncating the constitutive equation to some order (in gradients) we have a generically non-linear eigenvalue problem.
 
@@ -323,20 +304,6 @@ Non-Hydrodynamic Modes
 
 $\mathcal K' = \mathcal J + 2$; $h_{++}$
 
-
-
-<!-- ## $\mathcal K = \mathcal J$ Tensor Fluctuations {.squeeze} -->
-
-<!-- ![a = 0 Tensor Modes](figures/Tensor_rp_10_grid_50_a_0.pdf){ width=75% } -->
-
-<!-- ------------------------------ -->
-
-<!-- ![a = 1/2 Tensor Modes](figures/Tensor_rp_10_grid_50_a_1_2.pdf){ width=75% } -->
-
-<!-- ------------------------------ -->
-
-<!-- ![a = 9/10 Tensor Modes](figures/Tensor_rp_10_grid_50_a_9_10.pdf){ width=75% } -->
-
 ## $\mathcal K' = \mathcal J + 1$ Vector Fluctuations
 
 :::::::::::::: {.columns}
@@ -357,16 +324,6 @@ $\mathcal K' = \mathcal J + 1$; $h_{+r}$, $h_{+t}$, $h_{+3}$ (, and $h_{++}$ if 
 
 $\mathcal J = 0, 1/2, 1, \ldots, 199/2, 100$, $r_+/\ell = 10$  
 $\bigtriangleup \equiv \mathcal J = 0$, $\bigoplus \equiv \mathcal J = 100$
-
-<!-- ![a = 0 Vector Modes](figures/Vector_rp_10_grid_45_a_0.pdf){ width=75% } -->
-
-<!-- ------------------------------ -->
-
-<!-- ![a = 1/2 Vector Modes](figures/Vector_rp_10_grid_45_a_1_2.pdf){ width=75% } -->
-
-<!-- ------------------------------ -->
-
-<!-- ![a = 9/10 Vector Modes](figures/Vector_rp_10_grid_45_a_9_10.pdf){ width=75% } -->
 
 ## $\mathcal K' = \mathcal J$ Scalar Fluctuations {.squeeze}
 
