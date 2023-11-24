@@ -314,11 +314,13 @@ Non-Hydrodynamic Modes
 - Stability
 <!-- TODO Needs a hydrodynamic result: use old result -->
 
-## Tensor Sector {.squeeze }
+## $\mathcal K' = \mathcal J + 2$ Tensor Sector {.squeeze }
 
 \begin{center}
     \animategraphics[loop,autoplay,width=0.8\textwidth]{10}{build/tensor_dance_v2-}{0}{121}
 \end{center}
+
+$\mathcal K' = \mathcal J + 2$; $h_{++}$
 
 <!-- ## $\mathcal K = \mathcal J$ Tensor Fluctuations {.squeeze} -->
 
@@ -332,29 +334,62 @@ Non-Hydrodynamic Modes
 
 <!-- ![a = 9/10 Tensor Modes](figures/Tensor_rp_10_grid_50_a_9_10.pdf){ width=75% } -->
 
-## $\mathcal K = \mathcal J - 1$ Vector Fluctuations
+## $\mathcal K' = \mathcal J + 1$ Vector Fluctuations
 
-![a = 0 Vector Modes](figures/Vector_rp_10_grid_45_a_0.pdf){ width=75% }
+:::::::::::::: {.columns}
+::: {.column width="33%"}
+![](figures/Vector_rp_10_grid_45_a_0.pdf){ width=105% }
+:::
+::: {.column width="33%"}
+![](figures/Vector_rp_10_grid_45_a_1_2.pdf){ width=105% }
+:::
+::: {.column width="33%"}
+![](figures/Vector_rp_10_grid_45_a_9_10.pdf){ width=105% }
+:::
+::::::::::::::
 
-------------------------------
+$a/\ell \in \{0, 1/2, 9/10\}$
 
-![a = 1/2 Vector Modes](figures/Vector_rp_10_grid_45_a_1_2.pdf){ width=75% }
+$\mathcal K' = \mathcal J + 1$; $h_{+r}$, $h_{+t}$, $h_{+3}$ (, and $h_{++}$ if $\mathcal J \geq 1$)
 
-------------------------------
+<!-- ![a = 0 Vector Modes](figures/Vector_rp_10_grid_45_a_0.pdf){ width=75% } -->
 
-![a = 9/10 Vector Modes](figures/Vector_rp_10_grid_45_a_9_10.pdf){ width=75% }
+<!-- ------------------------------ -->
 
-## $\mathcal K = \mathcal J - 2$ Scalar Fluctuations
+<!-- ![a = 1/2 Vector Modes](figures/Vector_rp_10_grid_45_a_1_2.pdf){ width=75% } -->
 
-![a = 0 Scalar Modes](figures/scalar_ef_spherical_a0.pdf){ width=75% }
+<!-- ------------------------------ -->
 
-------------------------------
+<!-- ![a = 9/10 Vector Modes](figures/Vector_rp_10_grid_45_a_9_10.pdf){ width=75% } -->
 
-![a = 1/2 Scalar Modes](figures/scalar_ef_spherical_a1_2.pdf){ width=75% }
+## $\mathcal K' = \mathcal J$ Scalar Fluctuations
 
-------------------------------
+:::::::::::::: {.columns}
+::: {.column width="33%"}
+![](figures/scalar_ef_spherical_a0.pdf){ width=105% }
+:::
+::: {.column width="33%"}
+![](figures/scalar_ef_spherical_a1_2.pdf){ width=105% }
+:::
+::: {.column width="33%"}
+![](figures/scalar_ef_spherical_a9_10.pdf){ width=105% }
+:::
+::::::::::::::
 
-![a = 9/10 Scalar Modes](figures/scalar_ef_spherical_a9_10.pdf){ width=75% }
+$a/\ell \in \{0, 1/2, 9/10\}$
+
+$\mathcal K' = \mathcal J$, $h_{+-}$; $h_{ab}$ where $a,b \in \{r,t,3\}$  
+(, $h_{+r}$, $h_{+t}$, $h_{+3}$ if $\mathcal J \geq 1$ ) (, and $h_{++}$ if $\mathcal J \geq 2$)
+
+<!-- ![a = 0 Scalar Modes](figures/scalar_ef_spherical_a0.pdf){ width=75% } -->
+
+<!-- ------------------------------ -->
+
+<!-- ![a = 1/2 Scalar Modes](figures/scalar_ef_spherical_a1_2.pdf){ width=75% } -->
+
+<!-- ------------------------------ -->
+
+<!-- ![a = 9/10 Scalar Modes](figures/scalar_ef_spherical_a9_10.pdf){ width=75% } -->
 
 ## Cross Spectrum Comparisons
 
