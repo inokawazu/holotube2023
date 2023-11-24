@@ -9,21 +9,32 @@ theme: metropolis
 themeoptions: 
     - progressbar=frametitle
 header-includes: |
+    \usepackage{animate}
     \newcommand{\exd}{\mathrm{d}}
     \newcommand{\lsigma}{\overline{\sigma}}
 urlcolor: blue
-toc: true
+toc: false
 ---
 
 # Overview
 
 :::::::::::::: {.columns align=center}
 ::: {.column width="40%"}
-[Original Article][amano2023]
 
-- About the methods
-- About the results
-- Outlook?
+[Original Article][amano2023]
+: an overview of recent developments arising from the study of simply spinning Myers-Perry black holes
+
+
+Study of...
+
+- aspects of (Topo. $S^n$) Black Holes in AdS and
+- the dual conformal plasma.
+
+<!-- - Methods -->
+<!--     - --> 
+<!--     - test 2 -->
+<!-- - About the results -->
+<!-- - Outlook? -->
 
 :::
 ::: {.column width="60%"}
@@ -34,7 +45,7 @@ toc: true
 <!-- - footline=authorinstitutetitle -->
 <!-- In the realm of strongly-coupled systems, holography, has emerged as an invaluable tool for investigating hydrodynamical properties of strongly coupled fluids, like quark gluon plasmas. Based on recent work, this talk will present the findings about properties of strongly-coupled rotating fluids found with holography. The methods used will also be presented. In particular, we use a spinning black hole background in 5D AdS, AdS Myers-Perry black holes, as the gravitational dual of some strongly-coupled rotating fluid. As such, we have results of the field theory side (fluid results) and results of the gravity side. The fluid results cover findings pertaining to the unique features of the hydrodynamic and non-hydrodynamic regimes. This includes applicability of hydrodynamics at large temperatures and the effect of rotation on non-hydrodynamic modes at all temperatures. Gravity results include a new look at the stability of the AdS Myers-Perry solution and the dynamics of linear gravitation perturbations. -->
 
-# "Gravity Side"
+## "Gravity Side"
 
 \begin{equation}
     S = \frac 1{16\pi G_5} \int \sqrt{-g} (R - 2\Lambda) + S_{\text{ct}}
@@ -92,34 +103,34 @@ Simply Spinning
 
 ## Gravitational Perturbations
 
-\eqref{eq:pertgeneric} is the approximation of a perturbed metric to first order.
+The approximation of a perturbed metric to first order
 
 \begin{align}\label{eq:pertgeneric}
         g^{p}_{\mu\nu} {dx}^\mu {dx}^\nu = \left(g_{\mu\nu}+\epsilon~h_{\mu\nu}+O(\epsilon^2)\right) {dx}^\mu {dx}^\nu\,,
 \end{align}
 
-\eqref{eq:pertgeneric} ([Wald 1984][wald1984]) are linear PDEs.
+The Einstein Field Equations at first order ([Wald 1984][wald1984]) are linear PDEs.
 
 \begin{align}\label{eq:pertgenericeom}
        -\frac{1}{2}\nabla_\mu \nabla_\nu h-\frac{1}{2}\nabla^\lambda \nabla_\lambda h_{\mu\nu}+\nabla^\lambda \nabla_{(\mu}h_{\nu)\lambda} = \frac{2\Lambda}{D-2}h_{\mu\nu}\,,
 \end{align}
 
----------------------------------------
+The enhanced symmetry can be used reduce the perturbation equations of motion to ODEs.
 
-The enhanced symmetry can be used reduce the \eqref{eq:pertgenericeom} to ODEs wih \eqref{eq:Dual_Vectors_SU_2} and \eqref{eq:kvfsu2}.
+<!-- --------------------------------------- -->
 
-\begin{align}\label{eq:Dual_Vectors_SU_2}
-  \sigma_1 & = -\sin{\psi}\,\partial_\theta + \frac{\cos{\psi}}{\sin{\theta}}\,\partial_\phi - \cos{\theta} \sin{\phi}\,\partial_\psi\, ,\nonumber\\
-    \sigma_2 & = \cos{\psi}\,\partial_\theta + \frac{\sin{\psi}}{\sin{\theta}}\,\partial_\phi - \cot{\theta} \sin{\psi}\,\partial_\psi\, ,\\
-    \sigma_3 & = \partial_\psi\nonumber
-\end{align}
+<!-- \begin{align}\label{eq:Dual_Vectors_SU_2} -->
+<!--   \sigma_1 & = -\sin{\psi}\,\partial_\theta + \frac{\cos{\psi}}{\sin{\theta}}\,\partial_\phi - \cos{\theta} \sin{\phi}\,\partial_\psi\, ,\nonumber\\ -->
+<!--     \sigma_2 & = \cos{\psi}\,\partial_\theta + \frac{\sin{\psi}}{\sin{\theta}}\,\partial_\phi - \cot{\theta} \sin{\psi}\,\partial_\psi\, ,\\ -->
+<!--     \sigma_3 & = \partial_\psi\nonumber -->
+<!-- \end{align} -->
 
-\begin{align}  \label{eq:kvfsu2}
-   \xi_3 & = \partial_\phi
-\end{align}
+<!-- \begin{align}  \label{eq:kvfsu2} -->
+<!--    \xi_3 & = \partial_\phi -->
+<!-- \end{align} -->
 
-We can defined operators of scalar fields/functions $L_a := i \sigma_a$ 
-and $W_a := \xi_a$. The Casimir operator can be written out as $L^2 = L_aL_a$.
+<!-- We can defined operators of scalar fields/functions $L_a := i \sigma_a$ --> 
+<!-- and $W_a := \xi_a$. The Casimir operator can be written out as $L^2 = L_aL_a$. -->
 
 ---------------------------------------
 
@@ -148,7 +159,7 @@ $Q$ is the, $W_3$, angular momentum charge of the the **$i$**th basis.
     Q(\lsigma^i) = 0 ~if~ i=r,t,3;\quad 1 ~if~ i=+;\quad -1 ~if~ i=- 
 \end{equation*}
 
-Plugging \eqref{eq:pertsimplygeneric} in to \eqref{eq:pertgeneric}:
+Plugging the decomposed perturbation in to its equations of motion:
 
 - The perturbations of different $((\mathcal J, \mathcal M), \mathcal K')$ decouple
 - The angular momentum quantum parameter, $\mathcal M$, does not appear in the equations.
@@ -161,17 +172,18 @@ Based on the "$(\mathcal J, \mathcal K')$" classification of sectors there are a
 [Our article][amano2023] takes a look at three of these sectors.
 
 Tensor
-: $\mathcal K' = \mathcal J + 2$
+: $\mathcal K' = \mathcal J + 2$; $h_{++}$
 
 Vector
-: $\mathcal K' = \mathcal J + 1$
+: $\mathcal K' = \mathcal J + 1$; $h_{+r}$, $h_{+t}$, $h_{+3}$ (, and $h_{++}$ if $\mathcal J \geq 1$)
 
 Scalar
-: $\mathcal K' = \mathcal J$
+: $\mathcal K' = \mathcal J$, $h_{+-}$; $h_{ab}$ where $a,b \in \{r,t,3\}$  
+                 (, $h_{+r}$, $h_{+t}$, $h_{+3}$ if $\mathcal J \geq 1$ ) (, and $h_{++}$ if $\mathcal J \geq 2$)
 
 ## Quasinormal Modes
 
-The quasinormal modes [^greens] are defined as **non-trivial** solutions to linearized Einstein equations \eqref{eq:pertgenericeom} and obey the two boundary conditions.
+The quasinormal modes [^greens] are defined as **non-trivial** solutions to linearized Einstein equations and obey the two boundary conditions.
 
 ### BCs
 
@@ -183,23 +195,22 @@ The quasinormal modes [^greens] are defined as **non-trivial** solutions to line
 ### Parameters
 
 - $\mathcal J = 0, 1/2, 1, 2, \ldots$ is the discrete (angular) momentum. 
-- $\omega_{ \mathcal J }$ are discrete frequencies such that he BCs are fulfilled.
+- $\omega_{ \mathcal J }$ are discrete frequencies such that the BCs are fulfilled.
 
-# "Field Theory Side"
+## "Field Theory Side"
 
+<!-- GKP-Witten Relation ([Natuume 2014][natuume2014]) -->
+ <!-- : $\left< \exp\left(i \int \phi^{(0)} \mathcal O\right) \right> = \exp\left(i \underbar S_{\phi=\phi^{(0)}} \right)$ -1-> -->
 
-GKP-Witten Relation ([Natuume 2014][natuume2014])
-: $\left< \exp\left(i \int \phi^{(0)} \mathcal O\right) \right> = \exp\left(i \underbar S_{\phi=\phi^{(0)}} \right)$
+<!-- This is the well know physics equation $Z_{gauge} = Z_{ads}$ -->
 
-This is the well know physics equation $Z_{gauge} = Z_{ads}$
+<!-- $\mathcal O$ is the corresponding to the bulk field, $\phi$, and its boundry value, $\phi^{(0)}$. -->
 
-$\mathcal O$ is the corresponding to the bulk field, $\phi$, and its boundry value, $\phi^{(0)}$.
+<!-- We would like know about resonancing of field theory system corresponding to the rotating black hole. -->
 
-We would like know about resonancing of field theory system corresponding to the rotating black hole.
+<!-- --------------------------------- -->
 
----------------------------------
-
-\label{slide:field_theory_side}
+<!-- \label{slide:field_theory_side} -->
 
 For metric perturbations, $h_{\mu\nu}$ on the gravity side the corresponding operator is the stress energy tensor of the field theory. 
 With a bulk dimension of $4+1$D, metric perturbations, can be expanded with the two linearly independent solutions [^hcdim].
@@ -270,7 +281,7 @@ Higher Order
 
 ## Hydrodynamic Modes
 
-The generalized eigenvalue problem implicitly defines $\omega$ as a function of $|k|$[^sym].
+The generalized eigenvalue problem implicitly defines $\omega$ as a function of $|k|$. [^sym]
 
 \begin{equation}
 \omega = \sum_{a=0} \omega_{a} |k|^{a}
@@ -284,7 +295,7 @@ Non-Hydrodynamic Modes
 
 [^sym]: Assuming we can rotate globally to align $k$ to any direction.
 
-# Putting the Review Altogether
+## Review Summary
 
 1. Pick a AAdS gravity solution (dual to some strongly rotating plasma)
 2. Gravitationally linearize and solve for $\omega$ in the quasinormal modes that obey the correct BCs.
@@ -303,17 +314,23 @@ Non-Hydrodynamic Modes
 - Stability
 <!-- TODO Needs a hydrodynamic result: use old result -->
 
-## $\mathcal K = \mathcal J$ Tensor Fluctuations {.squeeze}
+## Tensor Sector {.squeeze }
 
-![a = 0 Tensor Modes](figures/Tensor_rp_10_grid_50_a_0.pdf){ width=75% }
+\begin{center}
+    \animategraphics[loop,autoplay,width=0.8\textwidth]{10}{build/tensor_dance_v2-}{0}{121}
+\end{center}
 
-------------------------------
+<!-- ## $\mathcal K = \mathcal J$ Tensor Fluctuations {.squeeze} -->
 
-![a = 1/2 Tensor Modes](figures/Tensor_rp_10_grid_50_a_1_2.pdf){ width=75% }
+<!-- ![a = 0 Tensor Modes](figures/Tensor_rp_10_grid_50_a_0.pdf){ width=75% } -->
 
-------------------------------
+<!-- ------------------------------ -->
 
-![a = 9/10 Tensor Modes](figures/Tensor_rp_10_grid_50_a_9_10.pdf){ width=75% }
+<!-- ![a = 1/2 Tensor Modes](figures/Tensor_rp_10_grid_50_a_1_2.pdf){ width=75% } -->
+
+<!-- ------------------------------ -->
+
+<!-- ![a = 9/10 Tensor Modes](figures/Tensor_rp_10_grid_50_a_9_10.pdf){ width=75% } -->
 
 ## $\mathcal K = \mathcal J - 1$ Vector Fluctuations
 
@@ -359,7 +376,7 @@ We solved spectra for $r_+ = \{10, 100, 1000, 10^4 , 10^5 , 10^6 , 10^7 \}$ and 
 
 [^jmax]: $\mathcal J_\mathrm{max}/r_+ = \mathit j_\mathrm{max} = 0.1$
 
-To see the emergence of hydrodynamics, we fitted the data to \eqref{eq:hydrofit}.
+To see the emergence of hydrodynamics, we fitted the data to the equation below with fitting parameters $\alpha$, $\beta$, $D$, and $v$.
 
 \begin{equation} \label{eq:hydrofit}
     \omega = v \mathcal J^\beta - i D \mathcal J^\alpha
@@ -410,7 +427,7 @@ This instability is signaled by boundary turing from timelike surface to a space
 
 - Look to calculate with a more general parameter space where $\mathcal J_\phi\neq\mathcal J_\psi$ ($a\neq b$).
     - No "axis of rotation" in current background.
-    - Need PDEs
+    - Need PDE
 - Different **sources** of rotation?
     - Vector graviton sourcing the rotation ~ $H_{\theta i} \sim \Omega_i r^2$
     - RN with magnetic field, $A_\theta \sim \Omega_i r^2$
@@ -422,10 +439,13 @@ This instability is signaled by boundary turing from timelike surface to a space
 
 This research was conducted with funding from the _Postdoctoral Fellowship at Henan University_.
 
-I would also like to thank collaborators, _Mathias_, _Casey_, and _Jackson_, on yet another fruitful endevour.
+I would like to thank collaborators, _Mathias_, _Casey_, and _Jackson_, on yet another fruitful endevour [in the paper][amano2023] this presentation is based on.
+
+I would also like to thanks Jorge, Enrico, Anthony and Mike [in a paper][amano2022mlu] that resulted in findings in this paper.
 
 [hawking1998]:https://inspirehep.net/literature/478927
 [amano2023]:https://arxiv.org/abs/2308.11686
+[amano2022mlu]:https://inspirehep.net/literature/2174613
 [wald1984]:https://inspirehep.net/literature/209356 
 [natuume2014]:https://inspirehep.net/literature/1316320
 [murata2009]:https://doi.org/10.1143/PTP.121.1099
