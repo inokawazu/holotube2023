@@ -24,7 +24,6 @@ toc: false
 [Original Article][amano2023]
 : an overview of recent developments arising from the study of simply spinning Myers-Perry black holes
 
-
 Study of...
 
 - aspects of (Topo. $S^n$) Black Holes in AdS and
@@ -38,7 +37,9 @@ Study of...
 
 :::
 ::: {.column width="60%"}
-![](images/nature.jpg){height=70%}
+\begin{center}
+    \animategraphics[loop,autoplay,width=0.8\textwidth]{10}{build/tensor_dance_v2-}{0}{121}
+\end{center}
 :::
 ::::::::::::::
 
@@ -322,6 +323,8 @@ Non-Hydrodynamic Modes
 
 $\mathcal K' = \mathcal J + 2$; $h_{++}$
 
+
+
 <!-- ## $\mathcal K = \mathcal J$ Tensor Fluctuations {.squeeze} -->
 
 <!-- ![a = 0 Tensor Modes](figures/Tensor_rp_10_grid_50_a_0.pdf){ width=75% } -->
@@ -352,6 +355,9 @@ $a/\ell \in \{0, 1/2, 9/10\}$
 
 $\mathcal K' = \mathcal J + 1$; $h_{+r}$, $h_{+t}$, $h_{+3}$ (, and $h_{++}$ if $\mathcal J \geq 1$)
 
+$\mathcal J = 0, 1/2, 1, \ldots, 199/2, 100$, $r_+/\ell = 10$  
+$\bigtriangleup \equiv \mathcal J = 0$, $\bigoplus \equiv \mathcal J = 100$
+
 <!-- ![a = 0 Vector Modes](figures/Vector_rp_10_grid_45_a_0.pdf){ width=75% } -->
 
 <!-- ------------------------------ -->
@@ -362,7 +368,7 @@ $\mathcal K' = \mathcal J + 1$; $h_{+r}$, $h_{+t}$, $h_{+3}$ (, and $h_{++}$ if 
 
 <!-- ![a = 9/10 Vector Modes](figures/Vector_rp_10_grid_45_a_9_10.pdf){ width=75% } -->
 
-## $\mathcal K' = \mathcal J$ Scalar Fluctuations
+## $\mathcal K' = \mathcal J$ Scalar Fluctuations {.squeeze}
 
 :::::::::::::: {.columns}
 ::: {.column width="33%"}
@@ -381,6 +387,9 @@ $a/\ell \in \{0, 1/2, 9/10\}$
 $\mathcal K' = \mathcal J$, $h_{+-}$; $h_{ab}$ where $a,b \in \{r,t,3\}$  
 (, $h_{+r}$, $h_{+t}$, $h_{+3}$ if $\mathcal J \geq 1$ ) (, and $h_{++}$ if $\mathcal J \geq 2$)
 
+$\mathcal J = 0, 1/2, 1, \ldots, 199/2, 100$, $r_+/\ell = 10$  
+$\bigtriangleup \equiv \mathcal J = 0$, $\bigoplus \equiv \mathcal J = 100$
+
 <!-- ![a = 0 Scalar Modes](figures/scalar_ef_spherical_a0.pdf){ width=75% } -->
 
 <!-- ------------------------------ -->
@@ -392,7 +401,6 @@ $\mathcal K' = \mathcal J$, $h_{+-}$; $h_{ab}$ where $a,b \in \{r,t,3\}$
 <!-- ![a = 9/10 Scalar Modes](figures/scalar_ef_spherical_a9_10.pdf){ width=75% } -->
 
 ## Cross Spectrum Comparisons
-
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
@@ -419,20 +427,20 @@ To see the emergence of hydrodynamics, we fitted the data to the equation below 
 
 ---------------------------------
 
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+![](figures/vector_dispersive_mode_rp_vs_im_scaling_over_a_scaled_Jleq0_1.pdf){ width=105% }  
+![](figures/vector_dispersive_mode_rp_vs_diffusion_over_a_scaled_Jleq0_1.pdf){ width=105% }  
+:::
+::: {.column width="50%"}
+![](figures/vector_dispersive_mode_rp_vs_re_scaling_over_a_scaled_Jleq0_1.pdf){ width=105% }  
+![](figures/vector_dispersive_mode_rp_vs_soundspeed_over_a_scaled_Jleq0_1.pdf){ width=105% }  
+:::
+::::::::::::::
 
-![](figures/vector_dispersive_mode_rp_vs_diffusion_over_a_scaled_Jleq0_1.pdf){ width=100% }
-
---------------------------------
-
-![](figures/vector_dispersive_mode_rp_vs_im_scaling_over_a_scaled_Jleq0_1.pdf){ width=100% }
-
---------------------------------
-
-![](figures/vector_dispersive_mode_rp_vs_re_scaling_over_a_scaled_Jleq0_1.pdf){ width=100% }
-
---------------------------------
-
-![](figures/vector_dispersive_mode_rp_vs_soundspeed_over_a_scaled_Jleq0_1.pdf){ width=100% }
+\begin{equation}
+    \omega = v \mathcal J^\beta - i D \mathcal J^\alpha
+\end{equation}
 
 ## Stability
 
