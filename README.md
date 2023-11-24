@@ -6,6 +6,7 @@ This repository provides the code for my Holotube presentation.
 - **Pandoc**
 - **LaTeX**
 - **make**
+- **magick convert**
 
 ## Usage
 1. Go to the root directory of this repo.
