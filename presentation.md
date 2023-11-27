@@ -297,11 +297,18 @@ Non-Hydrodynamic Modes
 <!-- TODO: include methods and how we do them -->
 <!-- NOTE: these methods should include the technical details -->
 
-1. Pick the 5D Myers-Perry "Simply Spinning" solution (dual to some strongly rotating plasma)
-2. Solve linearized Einstein equation for quasinormal modes.
-3. Analyze the spectra and compare with hydrodynamics (and non-hydrodynamics?)
+### Study Flow
 
-<!-- TODO: Methods go here -->
+1. Pick the 5D Myers-Perry "Simply Spinning" solution (dual to some strongly rotating plasma)
+1. Solve linearized Einstein equation for quasinormal modes.
+1. Analyze the spectra and compare with hydrodynamics (and non-hydrodynamics?)
+
+### QNMs Method
+
+1. Derive Linear Einstein Field Equations in EF ingoing coordinates with mentioned $h_{\mu\nu}$ decomposition
+1. Impose radial gague $h_{\mu r} = 0$
+1. Discretize with collocation method on a pseudospectral grid and enforce sourceless BC.
+1. Linearize eigenvalue problem and solve with Mathematica's `Eigenvalues`.
 
 # Results
 
