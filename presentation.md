@@ -297,7 +297,6 @@ Non-Hydrodynamic Modes
 
 ## Review Summary {.squeeze}
 
-<!-- TODO: include methods and how we do them -->
 <!-- NOTE: these methods should include the technical details -->
 
 ### Study Flow
@@ -315,14 +314,14 @@ Non-Hydrodynamic Modes
 
 # Results
 
-<!-- TODO: Advertise current paper -->
+[Amano, Kaminski et al.][amano2023]
+
 - Non-Hydrodynamic Modes and the effects of non-extremal rotation.
     - Tensor
     - Vector
     - Scalar
 - Cross Spectrum Comparison
 - The Emergence of Hydrodynamics
-<!-- TODO: Advertise our paper! -->
 - Stability
 
 ## $\mathcal K' = \mathcal J + 2$ Tensor Sector {.squeeze }
@@ -423,9 +422,7 @@ To see the emergence of hydrodynamics, we fitted the data to the equation below 
 
 ---------------------------------
 
-<!-- TODO: cite kovtun/holt -->
-
-:::::::::::::: {.columns}
+:::::::::::::: {.columns align=center}
 ::: {.column width="50%"}
 ![](figures/vector_dispersive_mode_rp_vs_im_scaling_over_a_scaled_Jleq0_1.pdf){ width=105% }  
 ![](figures/vector_dispersive_mode_rp_vs_diffusion_over_a_scaled_Jleq0_1.pdf){ width=105% }  
@@ -436,9 +433,16 @@ To see the emergence of hydrodynamics, we fitted the data to the equation below 
 :::
 ::::::::::::::
 
+:::::::::::::: {.columns align=center}
+::: {.column width="50%"}
+([Kovtun 2019](https://inspirehep.net/literature/1744607))
+:::
+::: {.column width="50%"}
 \begin{equation}
     \omega = v \mathcal J^\beta - i D \mathcal J^\alpha
 \end{equation}
+:::
+::::::::::::::
 
 ## Stability
 
