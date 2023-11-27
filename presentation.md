@@ -49,25 +49,13 @@ where $\Lambda = - 6 / \ell^2$.
 
 - Rotating AdS blackhole $\longleftrightarrow$ Rotating strongly-coupled fluid
 
-Rotating black holes are axisymmetric
+Rotating black holes ( $R^{1,1}\times S^3$ )
 
-<!-- TODO: mention topology -->
-<!-- TODO: fix symmetry group -->
-<!-- TODO: mention SO(4) = SO(3) x SO(3) -->
-<!-- TODO: try to shorten -->
+$S^3 \rightsquigarrow S^1\times S^1$ (invariant under $SO(4) \rightsquigarrow SO(2)\times SO(2)$ rotations)
 
-- 5D Myers Perry black hole: static and spherically symmetric: $\mathbb R \times SO(4)$
-- **Break Spherical Symmetry:
-    $\mathbb R \times ( SO(3)\times SO(3) )/\mathbb Z_2 
-    \rightsquigarrow \mathbb R \times SO(2)\times SO(2)$**
-- 5D AdS rotating black hole Kerr: stationary and axisymmetric: 
-    $\mathbb R \times SO(2)\times SO(2)$
+$S^1\times S^1 \implies$ two axial angular momenta.
 
-$SO(2)\times SO(2) \longrightarrow$ there are two axial angular momenta.
-
-## 5D AdS Myers-Perry Black Hole
-
-### 5D AdS Myers-Perry Black Hole ([Hawking & Reall 1998][hawking1998])
+## 5D AdS Myers-Perry Black Hole ([Hawking & Reall 1998][hawking1998])
 
 \begin{align}\label{eq:MP_Black_Hole}
 ds^2&=\frac{\left(1+r_H^2\ell^{-2}\right)}{\rho ^2 r_H^2} \left(a b \mathrm{d} t_H-\frac{b  \left(a^2+r_H^2\right) \sin ^2(\theta_H )}{\Xi_a}\mathrm{d} \phi_H-\frac{a  \left(b^2+r_H^2\right) \cos ^2(\theta_H )}{\Xi_b}\mathrm{d}\psi_H\right)^2 \nonumber\\
