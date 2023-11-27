@@ -108,43 +108,7 @@ The Einstein Field Equations at first order ([Wald 1984][wald1984]) are linear P
 
 The enhanced symmetry can be used to reduce the perturbation equations to ODEs.
 
-<!-- --------------------------------------- -->
-
-<!-- \begin{align}\label{eq:Dual_Vectors_SU_2} -->
-<!--   \sigma_1 & = -\sin{\psi}\,\partial_\theta + \frac{\cos{\psi}}{\sin{\theta}}\,\partial_\phi - \cos{\theta} \sin{\phi}\,\partial_\psi\, ,\nonumber\\ -->
-<!--     \sigma_2 & = \cos{\psi}\,\partial_\theta + \frac{\sin{\psi}}{\sin{\theta}}\,\partial_\phi - \cot{\theta} \sin{\psi}\,\partial_\psi\, ,\\ -->
-<!--     \sigma_3 & = \partial_\psi\nonumber -->
-<!-- \end{align} -->
-
-<!-- \begin{align}  \label{eq:kvfsu2} -->
-<!--    \xi_3 & = \partial_\phi -->
-<!-- \end{align} -->
-
-<!-- We can defined operators of scalar fields/functions $L_a := i \sigma_a$ --> 
-<!-- and $W_a := \xi_a$. The Casimir operator can be written out as $L^2 = L_aL_a$. -->
-
----------------------------------------
-
-<!-- TODO: Relate Wigner D function to spherical harmonics -->
-
-We can now construct the angular parts of the perturbation with a compatible subset of these operators which obey some given eigenvalue problems, $L^2, L_3, W_3$.
-
-\begin{align}\label{eq:wigeigenequations}
-   L^2 D^\mathcal{J}_{\mathcal{KM}}&=\mathcal{J}(\mathcal{J}+1)D^\mathcal{J}_{\mathcal{KM}}\nonumber\\
-    L_3D^\mathcal{J}_{\mathcal{KM}}&=\mathcal{M} D^\mathcal{J}_{\mathcal{KM}}\\
-    W_3 D^\mathcal{J}_{\mathcal{KM}}&=\mathcal{K} D^\mathcal{J}_{\mathcal{KM}}\nonumber
-\end{align}
-
-$L^2$ and $L_3$ are the angular momentum operators from undergraduate quantum.
-One can use the raising and lowering operators built from these where $\sigma^\pm = \frac{1}{2} \left(\sigma^1 \mp i \sigma^2 \right)$ and  $\sigma_\pm  = \sigma_1 \pm i \sigma_2$.
-
-$$\lsigma^i=(\exd t, \sigma^+,\sigma^-,\sigma^3,\exd r)$$
-
 ## Perturbation Sectors
-
-<!-- TODO: D is confusing -->
-<!-- TODO: Explain the D and sigmas on the same slide --> 
-<!-- TODO: compare to familar example plane waves -> but on a sphere the basis are spherical harmonics -->
 
 \begin{equation}\label{eq:pertsimplygeneric}
     h_{\mu\nu} = \int d\omega e^{-i\omega t} \sum_{\mathcal{J} = 0} \sum_{\mathcal{M}=\mathcal{-J}}^{\mathcal{J}} \sum_{\mathcal{K'}=-(\mathcal{J}+2)}^{\mathcal{J}+2} h_{i j}(r,\omega, \mathcal{J},\mathcal{M},\mathcal{K}') \lsigma^i_{\mu} \lsigma^j_{\nu} D_{\mathcal{K'}-Q(\lsigma^{i})-Q(\lsigma^{j}) \mathcal{M}}^\mathcal{J}
@@ -152,8 +116,9 @@ $$\lsigma^i=(\exd t, \sigma^+,\sigma^-,\sigma^3,\exd r)$$
 
 $Q$ is the, $W_3$, angular momentum charge of the the **$i$**th basis.
 
+<!-- Q(\lsigma^i) = \lambda ~\text{where}~ W_3 \lsigma^i = \lambda \lsigma^i -->
 \begin{equation*}
-    Q(\lsigma^i) = 0 ~if~ i=r,t,3;\quad 1 ~if~ i=+;\quad -1 ~if~ i=- 
+    Q(\lsigma^i) = \lambda ~if~ i=r,t,3;\quad 1 ~if~ i=+;\quad -1 ~if~ i=- 
 \end{equation*}
 
 Plugging the decomposed perturbation in to its equations of motion:
@@ -162,13 +127,51 @@ Plugging the decomposed perturbation in to its equations of motion:
 - The angular momentum quantum parameter, $\mathcal M$, does not appear in the equations.
 - Perturbations are non-trivially labeled by $(\mathcal J, \mathcal K')$
 
+---------------------------------------
+
+Similar to plane waves of black brane perturbations, $D_{\mathcal KM}^\mathcal J$ for a complete set on $S^3$.
+
+:::::::::::::: {.columns align=center}
+::: {.column width="50%"}
+\begin{equation}\label{eq:WLalgebra}
+    \begin{aligned}
+    [L_a,L_a] &= i \epsilon_{abc} L_c \\ 
+    [W_a,W_b] &= -i \epsilon_{abc} W_c \\
+    [W_a,L_b] &= 0\\
+    \end{aligned}
+ \end{equation}
+:::
+::: {.column width="50%"}
+\begin{align}
+   L^2 D^\mathcal{J}_{\mathcal{KM}}&=\mathcal{J}(\mathcal{J}+1)D^\mathcal{J}_{\mathcal{KM}}\nonumber\\
+    L_3D^\mathcal{J}_{\mathcal{KM}}&=\mathcal{M} D^\mathcal{J}_{\mathcal{KM}}\\
+    W_3 D^\mathcal{J}_{\mathcal{KM}}&=\mathcal{K} D^\mathcal{J}_{\mathcal{KM}}\nonumber
+\end{align}
+:::
+::::::::::::::
+
+One can use the raising and lowering operators (forms)  
+
+$L_\pm  = L_1 \pm i L_2$ ($\sigma^\pm = \frac{1}{2} \left(\sigma^1 \mp i \sigma^2 \right)$)
+
+<!-- $$\lsigma^i=(\exd t, \sigma^+,\sigma^-,\sigma^3, \exd r)$$ -->
+
+\begin{equation}\label{eq:form_basis}
+    \begin{aligned}
+        \sigma^1&=d\phi \sin (\theta ) \cos (\psi )-d\theta \sin (\psi ) \\
+        \sigma^2&=d\theta  \cos (\psi )+d\phi \sin (\theta ) \sin (\psi )\\
+        \sigma^3&=d\psi+d\phi  \cos (\theta )\\
+        \lsigma^i&=(\exd t, \sigma^+,\sigma^-,\sigma^3, \exd r)
+    \end{aligned}
+\end{equation}
+
 ## Tensor, Vector, and Scalar Sectors
 
-<!-- WARN: Do not dwell on infinite number -->
+<!-- WARN: Do not dwell on the infinite number of sectors -->
 
 Based on the "$(\mathcal J, \mathcal K')$" classification of sectors there are an infinite number of sectors.
 
-[Our article][amano2023] takes a look at three of these sectors.
+[Amano, Kaminski et al. 2023][amano2023] takes a look at three of these sectors.
 
 Tensor
 : $\mathcal K' = \mathcal J + 2$; $h_{++}$
