@@ -201,47 +201,33 @@ The quasinormal modes[^greens] are defined as **non-trivial** solutions to linea
 - $\mathcal J = 0, 1/2, 1, 3/2, 2, \ldots$ is the discrete (angular) momentum. 
 - $\omega_{ \mathcal J }$ are discrete eigen-frequencies (QNMs) such that the BCs are fulfilled.
 
-## "Field Theory Side"
+<!-- ## "Field Theory Side" -->
+## The Hydrodynamic Description
 
-<!-- TODO: try to consolidate with the previous -->
-
-<!-- GKP-Witten Relation ([Natuume 2014][natuume2014]) -->
- <!-- : $\left< \exp\left(i \int \phi^{(0)} \mathcal O\right) \right> = \exp\left(i \underbar S_{\phi=\phi^{(0)}} \right)$ -1-> -->
-
-<!-- This is the well know physics equation $Z_{gauge} = Z_{ads}$ -->
-
-<!-- $\mathcal O$ is the corresponding to the bulk field, $\phi$, and its boundry value, $\phi^{(0)}$. -->
-
-<!-- We would like know about resonancing of field theory system corresponding to the rotating black hole. -->
-
-<!-- --------------------------------- -->
-
-<!-- \label{slide:field_theory_side} -->
-
-For metric perturbations, $h_{\mu\nu}$ on the gravity side the corresponding operator is the stress energy tensor of the field theory. 
-With a bulk dimension of $4+1$D, metric perturbations, can be expanded with the two linearly independent solutions [^hcdim].
+<!-- For metric perturbations, $h_{\mu\nu}$ on the gravity side the corresponding operator is the stress energy tensor of the field theory. --> 
+<!-- With a bulk dimension of $4+1$D, metric perturbations, can be expanded with the two linearly independent solutions [^hcdim]. -->
 
 \begin{equation}
-h_{\mu\nu} \sim r^2 h^{\mathrm{(0)}}_{\mu\nu} - r^{-2} h^{\mathrm{(1)}}_{\mu\nu}
+h_{\mu\nu} \sim r^2 h^{\mathrm{(0)}}_{\mu\nu} - h^{\mathrm{(1)}}_{\mu\nu}/r^2
 \end{equation} 
 
 - $h^{\mathrm{(0)}}_{\mu\nu}$ $\leftrightarrow$ source of $\delta T$.
 - $h^{\mathrm{(1)}}_{\mu\nu}$ $\leftrightarrow$ VEV of $\delta T_{\mu\nu} \equiv \langle \delta T_{\mu\nu} \rangle$.
 
-[^hcdim]: The difference in powers, $2 -(-2) = 4$, is the conformal dimension of the field theory operator.
+<!-- [^hcdim]: The difference in powers, $2 -(-2) = 4$, is the conformal dimension of the field theory operator. -->
 
 $h^{\mathrm{(0)}}_{\mu\nu} = 0$
 : Sourceless boundary condition.
 
-## The Hydrodynamic Description
+<!-- ## The Hydrodynamic Description -->
+
+<!-- WARN: Be carful of "flat" questions -->
 
 <!-- Hydro Slide -->
 <!-- TODO: Oscar Dias Paper -->
-<!-- WARN: Be carful of "flat" questions -->
 
-Hydrodynamics is an effective field theory that models conserved quantities as a fluid.
-
-A Hydrodynamical theory is based on conservation equations and constitutive equations.
+<!-- Hydrodynamics is an effective field theory that models conserved quantities as a fluid. -->
+<!-- A Hydrodynamical theory is based on conservation equations and constitutive equations. -->
 
 Conservation Equations
 : $\nabla_\mu T^{\mu\nu} \stackrel{\mathrm{flat}}{=} \partial_\mu T^{\mu\nu} \stackrel{\mathrm{Fourier}}{=} ik_{\mu} T^{\mu\nu} = 0$
@@ -253,26 +239,29 @@ Hydro Variables
 : $u^\mu$ and $T$
 
 <!-- [^conseq]: This is the hydrodynamic expansion. $T^{(a)}_{\mu_0\ldots \mu_a}$ is the $a^{\mathrm{th}}$ expansion in gradients. -->
-[^conseq]: $u^\mu$ are the hydrodynamic velocity variables that points in the forward time direction. $\Pi := u^{\mu}u^{\nu} + \eta^{\mu\nu}$.
+[^conseq]: $u^\mu$ are the hydrodynamic velocity variables that points in the forward time direction. $\Pi^{\mu\nu} := u^{\mu}u^{\nu} + \eta^{\mu\nu}$.
 
--------------------------------
+<!-- ------------------------------- -->
 
-<!-- TODO: Consolidate the hydro slides -->
-<!-- TODO: The conservation equations implies an eigenvalue problem and k implicitly depends on omega -->
-<!-- TODO: Gradient expansion implies that there is an expansion of omega in k -->
+<!-- NOTE: The conservation equations implies an eigenvalue problem and k implicitly depends on omega -->
+<!-- NOTE: Gradient expansion implies that there is an expansion of omega in k -->
 
-\label{slide:eigen}
+<!-- \label{slide:eigen} -->
 
-Truncating the constitutive equation to some order (in gradients) we have a generically non-linear eigenvalue problem.
+<!-- Truncating the constitutive equation to some order (in gradients) we have a generically non-linear eigenvalue problem. -->
+
+## Hydrodynamic Modes
+
+<!-- NOTE: variation with respect to metric can be used to derive transport coefficients. --> 
 
 Order 0 (Ideal Hydro)
-: $\epsilon u^\mu u^\nu + P \Pi^{\mu\nu}$ (solution $u = (1,0,0,0)$)
+: $\partial_\mu\left(\epsilon u^\mu u^\nu + P \Pi^{\mu\nu}\right) = 0$ (where $u = (1, 0, 0, 0)$)
 
-Order 1 (First Order Hydro)
+Order 1 (First Order Hydro) ( [Kovtun 2019](https://inspirehep.net/literature/1744607) )
 : $\partial_\mu \pi^{\mu\nu} \stackrel{\mathrm{Fourier}}{=} ik_{\mu}\pi^{\mu\nu} = 0$
 
-Higher Order
-: And so on...
+<!-- Higher Order -->
+<!-- : And so on... -->
 
 <!-- Combining the conservation and constitutive equations (at first order). -->
 
@@ -288,8 +277,6 @@ Higher Order
 <!-- #### Why non-linear?!{.alert} -->
 
 <!-- ${\delta T}^{t\nu}$ and ${\delta T}^{i\nu}$ have generically non-trivial dependence on $\vec{k}$ and $\omega$. -->
-
-## Hydrodynamic Modes
 
 The generalized eigenvalue problem implicitly defines $\omega$ as a function of $|k|$. [^sym]
 
