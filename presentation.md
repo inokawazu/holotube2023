@@ -12,7 +12,7 @@ header-includes: |
     \usepackage{animate}
     \newcommand{\exd}{\mathrm{d}}
     \newcommand{\lsigma}{\overline{\sigma}}
-urlcolor: blue
+urlcolor: olive
 toc: false
 ---
 
