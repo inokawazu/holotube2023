@@ -488,13 +488,19 @@ We find hydro applies in regimes where the dual fluid is not necessarily a homog
 
 This research was conducted with funding from the _Postdoctoral Fellowship at Henan University_.
 
-I would like to thank collaborators, _Matthias_, _Casey_, and _Jackson_, on yet another fruitful endevour [in the paper][amano2023] this presentation is based on.
+I would like to thank my collaborators, _Matthias Kaminski_, _Casey Cartwright_, and _Jackson Wu_, on yet another fruitful for the research presented in this presentation.
 
-I would also like to thank Jorge, Enrico, Anthony and Mike [in a paper][amano2022mlu] that resulted in findings in this paper.
+Research in this presentation also included contributions from 
+
+- _Mike Blake_, _Casey Cartwright_, _Matthias Kaminski_, and _Anthony Thompson_  
+  [Amano et al. 2022][amano2022mlu]
+- _Casey Cartwright_, _Matthias Kaminski_, _Jorge Noronha_, _Enrico Speranza_  
+  [Cartwright et al. 2023][cartwright2021qpp]
 
 [hawking1998]:https://inspirehep.net/literature/478927
 [amano2023]:https://arxiv.org/abs/2308.11686
 [amano2022mlu]:https://inspirehep.net/literature/2174613
+[cartwright2021qpp]:https://inspirehep.net/literature/1994753
 [wald1984]:https://inspirehep.net/literature/209356 
 [natuume2014]:https://inspirehep.net/literature/1316320
 [murata2009]:https://doi.org/10.1143/PTP.121.1099
