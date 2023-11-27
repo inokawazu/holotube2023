@@ -63,10 +63,18 @@ ds^2&=\frac{\left(1+r_H^2\ell^{-2}\right)}{\rho ^2 r_H^2} \left(a b \mathrm{d} t
     &+\frac{\Delta_\theta \sin ^2(\theta_H )}{\rho ^2} \left(a \mathrm{d} t_H-\frac{ a^2+r_H^2}{\Xi_a}\mathrm{d} \phi_H\right)^2+\frac{\Delta_\theta \cos ^2(\theta_H )}{\rho ^2}  \left(b \mathrm{d} t_H-\frac{ b^2+r_H^2}{\Xi_b}\mathrm{d} \psi_H\right)^2
 \end{align}
 
-<!-- TODO: Include metric function defs -->
-
 - Coordinates $(t_H, \theta_H, \phi_H, \psi_H, r_H)$
 - Angular momentum parameters of $a$ and $b$.
+
+5D AdS Myers-Perry Black Hole - Metric Functions
+-------------------------
+
+\begin{align*}
+    \Delta_r&=\frac{1}{r_H^2}(r_H^2+a^2) (r_H^2+b^2)(\frac{r_H^2}{\ell^2}+1)-2M \, ,\\
+     \Delta_\theta&=1-\frac{a^2}{\ell^2}\cos(\theta_H)^2-\frac{b^2}{\ell^2}\sin(\theta_H)^2\, , \\
+    \rho^2&=r_H^2+a^2\cos(\theta_H)^2+b^2\sin(\theta_H)^2 \, ,\\
+    \Xi_a&=1-\frac{a^2}{\ell^2}\, , \quad \Xi_b=1-\frac{b^2}{\ell^2} \,.
+\end{align*}
 
 -------------------------
 
