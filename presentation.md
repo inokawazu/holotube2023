@@ -439,15 +439,13 @@ To see the emergence of hydrodynamics, we fitted the data to the equation below 
 
 ## Stability
 
-<!-- TODO: Mention that this slide shows we studied a stable solution -->
-
 :::::::::::::: {.columns align=center}
 ::: {.column width="40%"}
-It's well known that the MPAdS5D solution suffers from superadiant instabilities ([Murata 2009][murata2009]).
+It's well known that the MPAdS5D solution suffers from superadiant instabilities ([Murata 2009][murata2009], [Dias et al](https://inspirehep.net/literature/875604)).
 
-<!-- We find agreement with the above paper. -->
+Study was done a regime that is stable for large enough $r_+$.
 
-This instability is signaled by boundary turning from a timelike surface to a spacelike surface.
+This instability is signaled by boundary turning from a timelike surface to a spacelike surface (for stationary observers).
 :::
 ::: {.column width="60%"}
 ![$\mathcal{J} = 5$ frequencies, zoomed in. Positive imaginary modes are unstable.](figures/tensor_unstable_modes_vs_a_J5.pdf){height=70%}
