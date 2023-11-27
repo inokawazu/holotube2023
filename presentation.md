@@ -87,12 +87,10 @@ Simply Spinning
 \end{aligned}
 \end{equation}
 
-<!-- TODO: change to sphere notation -->
-
 - Cooridnates: $(t, \theta, \phi, \psi, r)$
 - Angular momentum parameter of $a$
-- Enhanced Symmetry $SO(2)\times SO(2)\nearrow SO(3)\times SO(2)$
-- $\sigma$'s are the left-invariant forms of $SO(3)$.
+- Enhanced Symmetry $S^1\times S^1\nearrow S^2\times S^1$
+- $\sigma$'s are the left-invariant forms of $SO(3)$ rotations.
 
 ## Gravitational Perturbations
 
