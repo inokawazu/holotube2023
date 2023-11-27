@@ -17,27 +17,22 @@ toc: false
 ---
 
 
-# Overview
-
-<!-- TODO: Change the references to et al... -->
-<!-- TODO: change dual conformal plasma -->
-<!-- TODO: mention RHIC/CERN and cite Nature paper -->
-<!-- TODO: Mention Kaminki in the "Original Paper" article -->
-<!-- TODO: Mention Bantilan, Ishii, Romatschke -->
+# Overview & Methods {.squeeze}
 
 :::::::::::::: {.columns align=center}
-::: {.column width="40%"}
+::: {.column width="50%"}
 
-[Original Article][amano2023]
+[Amano, Kaminski et al. 2023][amano2023]
 : an overview of recent developments arising from the study of simply spinning Myers-Perry black holes
 
 Study of...
 
-- aspects of (Topo. $S^n$) Black Holes in AdS and
-- the dual conformal plasma.
+- aspects of (Topo. $S^3$) Rotating Black Holes in AdS and
+- the dual rotating conformal plasma (model highly vortical heavy ion collisions)  
+  ([STAR Collaboration 2017](https://inspirehep.net/literature/1510474), [Bantilan et al](https://inspirehep.net/literature/1665231)).
 
 :::
-::: {.column width="60%"}
+::: {.column width="50%"}
 \begin{center}
     \animategraphics[loop,autoplay,width=\textwidth]{10}{build/tensor_dance_v2-}{0}{121}
 \end{center}
