@@ -454,11 +454,13 @@ This instability is signaled by boundary turning from a timelike surface to a sp
 
 ## RFP (Read the Fantastic Papers!)
 
-<!-- TODO: include citations -->
+[Amano et al. 2022][amano2022mlu]
 
 - Pole-Skipping
 - Chaos
 - Gravitational Shockwaves
+
+[Cartwright et al. 2023][cartwright2021qpp]
 
 - Critical Points
 
@@ -466,22 +468,23 @@ This instability is signaled by boundary turning from a timelike surface to a sp
 
 ## Summary and Outlook
 
-<!-- TODO: include the main message here -->
+### Main Message
+
+We find hydro applies in regimes where the dual fluid is not necessarily a homogeneously boasted fluid.
+
+### Outlook
 
 - Look to calculate with a more general parameter space where $\mathcal J_\phi\neq\mathcal J_\psi$ ($a\neq b$).
     - No "axis of rotation" in current background.
-    - Need PDE
+    - Need PDE ([Amado et al 2020](https://inspirehep.net/literature/1780844), [Amado et al. 2021](https://inspirehep.net/literature/1844790))
 - Different **sources** of rotation?
     - Vector graviton sourcing the rotation ~ $H_{\theta i} \sim \Omega_i r^2$
-    - RN with magnetic field, $A_\theta \sim \Omega_i r^2$
-- Linear instability in the dual field theory?
+    - RN with magnetic field, $A_\theta \sim \Omega_i r^2$ [https://inspirehep.net/literature/854786](Domenech et al. 2010)
+- Interpretation of Linear instability in the dual field theory?
 - be used in "hydro codes"
 - and more...RFP!
 
 ## Acknowledgements
-
-<!-- TODO: include last names of collaborators -->
-<!-- TODO: rephrase -->
 
 This research was conducted with funding from the _Postdoctoral Fellowship at Henan University_.
 
