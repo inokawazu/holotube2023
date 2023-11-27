@@ -66,7 +66,6 @@ ds^2&=\frac{\left(1+r_H^2\ell^{-2}\right)}{\rho ^2 r_H^2} \left(a b \mathrm{d} t
 - Coordinates $(t_H, \theta_H, \phi_H, \psi_H, r_H)$
 - Angular momentum parameters of $a$ and $b$.
 
-5D AdS Myers-Perry Black Hole - Metric Functions
 -------------------------
 
 \begin{align*}
@@ -108,7 +107,9 @@ The Einstein Field Equations at first order ([Wald 1984][wald1984]) are linear P
 
 The enhanced symmetry can be used to reduce the perturbation equations to ODEs.
 
-## Perturbation Sectors
+<!-- ## Perturbation Sectors -->
+
+--------------------------------
 
 \begin{equation}\label{eq:pertsimplygeneric}
     h_{\mu\nu} = \int d\omega e^{-i\omega t} \sum_{\mathcal{J} = 0} \sum_{\mathcal{M}=\mathcal{-J}}^{\mathcal{J}} \sum_{\mathcal{K'}=-(\mathcal{J}+2)}^{\mathcal{J}+2} h_{i j}(r,\omega, \mathcal{J},\mathcal{M},\mathcal{K}') \lsigma^i_{\mu} \lsigma^j_{\nu} D_{\mathcal{K'}-Q(\lsigma^{i})-Q(\lsigma^{j}) \mathcal{M}}^\mathcal{J}
@@ -250,7 +251,9 @@ Hydro Variables
 
 <!-- Truncating the constitutive equation to some order (in gradients) we have a generically non-linear eigenvalue problem. -->
 
-## Hydrodynamic Modes
+<!-- ## Hydrodynamic Modes -->
+
+------------------------------
 
 <!-- NOTE: variation with respect to metric can be used to derive transport coefficients. --> 
 
