@@ -107,8 +107,6 @@ The Einstein Field Equations at first order ([Wald 1984][wald1984]) are linear P
 
 The enhanced symmetry can be used to reduce the perturbation equations to ODEs.
 
-<!-- ## Perturbation Sectors -->
-
 --------------------------------
 
 \begin{equation}\label{eq:pertsimplygeneric}
@@ -155,8 +153,6 @@ One can use the raising and lowering operators (forms)
 
 $L_\pm  = L_1 \pm i L_2$ ($\sigma^\pm = \frac{1}{2} \left(\sigma^1 \mp i \sigma^2 \right)$)
 
-<!-- $$\lsigma^i=(\exd t, \sigma^+,\sigma^-,\sigma^3, \exd r)$$ -->
-
 \begin{equation}\label{eq:form_basis}
     \begin{aligned}
         \sigma^1&=d\phi \sin (\theta ) \cos (\psi )-d\theta \sin (\psi ) \\
@@ -202,11 +198,7 @@ The quasinormal modes[^greens] are defined as **non-trivial** solutions to linea
 - $\mathcal J = 0, 1/2, 1, 3/2, 2, \ldots$ is the discrete (angular) momentum. 
 - $\omega_{ \mathcal J }$ are discrete eigen-frequencies (QNMs) such that the BCs are fulfilled.
 
-<!-- ## "Field Theory Side" -->
 ## The Hydrodynamic Description
-
-<!-- For metric perturbations, $h_{\mu\nu}$ on the gravity side the corresponding operator is the stress energy tensor of the field theory. --> 
-<!-- With a bulk dimension of $4+1$D, metric perturbations, can be expanded with the two linearly independent solutions [^hcdim]. -->
 
 \begin{equation}
 h_{\mu\nu} \sim r^2 h^{\mathrm{(0)}}_{\mu\nu} - h^{\mathrm{(1)}}_{\mu\nu}/r^2
@@ -215,20 +207,12 @@ h_{\mu\nu} \sim r^2 h^{\mathrm{(0)}}_{\mu\nu} - h^{\mathrm{(1)}}_{\mu\nu}/r^2
 - $h^{\mathrm{(0)}}_{\mu\nu}$ $\leftrightarrow$ source of $\delta T$.
 - $h^{\mathrm{(1)}}_{\mu\nu}$ $\leftrightarrow$ VEV of $\delta T_{\mu\nu} \equiv \langle \delta T_{\mu\nu} \rangle$.
 
-<!-- [^hcdim]: The difference in powers, $2 -(-2) = 4$, is the conformal dimension of the field theory operator. -->
-
 $h^{\mathrm{(0)}}_{\mu\nu} = 0$
 : Sourceless boundary condition.
 
-<!-- ## The Hydrodynamic Description -->
-
 <!-- WARN: Be carful of "flat" questions -->
 
-<!-- Hydro Slide -->
 <!-- TODO: Oscar Dias Paper -->
-
-<!-- Hydrodynamics is an effective field theory that models conserved quantities as a fluid. -->
-<!-- A Hydrodynamical theory is based on conservation equations and constitutive equations. -->
 
 Conservation Equations
 : $\nabla_\mu T^{\mu\nu} \stackrel{\mathrm{flat}}{=} \partial_\mu T^{\mu\nu} \stackrel{\mathrm{Fourier}}{=} ik_{\mu} T^{\mu\nu} = 0$
@@ -239,19 +223,12 @@ Constitutive Equations[^conseq]
 Hydro Variables
 : $u^\mu$ and $T$
 
-<!-- [^conseq]: This is the hydrodynamic expansion. $T^{(a)}_{\mu_0\ldots \mu_a}$ is the $a^{\mathrm{th}}$ expansion in gradients. -->
 [^conseq]: $u^\mu$ are the hydrodynamic velocity variables that points in the forward time direction. $\Pi^{\mu\nu} := u^{\mu}u^{\nu} + \eta^{\mu\nu}$.
 
 <!-- ------------------------------- -->
 
 <!-- NOTE: The conservation equations implies an eigenvalue problem and k implicitly depends on omega -->
 <!-- NOTE: Gradient expansion implies that there is an expansion of omega in k -->
-
-<!-- \label{slide:eigen} -->
-
-<!-- Truncating the constitutive equation to some order (in gradients) we have a generically non-linear eigenvalue problem. -->
-
-<!-- ## Hydrodynamic Modes -->
 
 ------------------------------
 
@@ -262,24 +239,6 @@ Order 0 (Ideal Hydro)
 
 Order 1 (First Order Hydro) ( [Kovtun 2019](https://inspirehep.net/literature/1744607) )
 : $\partial_\mu \pi^{\mu\nu} \stackrel{\mathrm{Fourier}}{=} ik_{\mu}\pi^{\mu\nu} = 0$
-
-<!-- Higher Order -->
-<!-- : And so on... -->
-
-<!-- Combining the conservation and constitutive equations (at first order). -->
-
-<!-- \begin{equation} -->
-<!-- ik_{\mu} T^{\mu\nu} = \text{zeroth order is solved} + ik_{\mu} {\delta T}^{\mu\nu} = 0 -->
-<!-- \end{equation} -->
-
-<!-- Non-linear Eigenvalue Problem[^kcomp] -->
-<!-- : Find $\omega$ such that for a given $\vec{k}$, $\omega {\delta T}^{t\nu} + k_i {\delta T}^{i\nu} = 0$ and $\delta T \neq 0$ -->
-
-<!-- [^kcomp]: $k \equiv (\omega, \vec{k})$ -->
-
-<!-- #### Why non-linear?!{.alert} -->
-
-<!-- ${\delta T}^{t\nu}$ and ${\delta T}^{i\nu}$ have generically non-trivial dependence on $\vec{k}$ and $\omega$. -->
 
 The generalized eigenvalue problem implicitly defines $\omega$ as a function of $|k|$. [^sym]
 
@@ -380,16 +339,6 @@ $\mathcal K' = \mathcal J$, $h_{+-}$; $h_{ab}$ where $a,b \in \{r,t,3\}$
 
 $\mathcal J = 0, 1/2, 1, \ldots, 199/2, 100$, $r_+/\ell = 10$  
 $\bigtriangleup \equiv \mathcal J = 0$, $\bigoplus \equiv \mathcal J = 100$
-
-<!-- ![a = 0 Scalar Modes](figures/scalar_ef_spherical_a0.pdf){ width=75% } -->
-
-<!-- ------------------------------ -->
-
-<!-- ![a = 1/2 Scalar Modes](figures/scalar_ef_spherical_a1_2.pdf){ width=75% } -->
-
-<!-- ------------------------------ -->
-
-<!-- ![a = 9/10 Scalar Modes](figures/scalar_ef_spherical_a9_10.pdf){ width=75% } -->
 
 ## Cross Spectrum Comparisons
 
