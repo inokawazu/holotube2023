@@ -450,7 +450,7 @@ We find hydro applies in regimes where the dual fluid is not necessarily a homog
     - Need PDE ([Amado et al 2020](https://inspirehep.net/literature/1780844), [Amado et al. 2021](https://inspirehep.net/literature/1844790))
 - Different **sources** of rotation?
     - Vector graviton sourcing the rotation ~ $H_{\theta i} \sim \Omega_i r^2$
-    - RN with magnetic field, $A_\theta \sim \Omega_i r^2$ [https://inspirehep.net/literature/854786](Domenech et al. 2010)
+    - RN with magnetic field, $A_\theta \sim \Omega_i r^2$ [Domenech et al. 2010](https://inspirehep.net/literature/854786)
 - Interpretation of Linear instability in the dual field theory?
 - be used in "hydro codes"
 - and more...RFP!
