@@ -213,8 +213,6 @@ $h^{\mathrm{(0)}}_{\mu\nu} = 0$
 
 <!-- WARN: Be carful of "flat" questions -->
 
-<!-- TODO: Oscar Dias Paper -->
-
 Conservation Equations
 : $\nabla_\mu T^{\mu\nu} \stackrel{\mathrm{flat}}{=} \partial_\mu T^{\mu\nu} \stackrel{\mathrm{Fourier}}{=} ik_{\mu} T^{\mu\nu} = 0$
 
