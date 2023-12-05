@@ -10,6 +10,7 @@ themeoptions:
     - progressbar=frametitle
 header-includes: |
     \usepackage{animate}
+    \usepackage[dvipsnames]{xcolor}
     \newcommand{\exd}{\mathrm{d}}
     \newcommand{\lsigma}{\overline{\sigma}}
 urlcolor: olive
@@ -388,14 +389,24 @@ To see the emergence of hydrodynamics, we fitted the data to the equation below 
 
 ## Cross Spectrum Comparisons
 
-<!-- TODO: include color coding -->
-
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-![](figures/all_sectors_compared_ef_spherical_over_a0.pdf){ width=100% }
+![](figures/all_sectors_compared_ef_spherical_over_a0.pdf){ width=90% }
 :::
 ::: {.column width="50%"}
-![](figures/all_sectors_compared_ef_spherical_over_a1_2.pdf){ width=100% }
+![](figures/all_sectors_compared_ef_spherical_over_a1_2.pdf){ width=90% }
+:::
+::::::::::::::
+
+:::::::::::::: {.columns align=center}
+::: {.column width="33%"}
+\textcolor{ForestGreen}{$\cdot$ Tensor}
+:::
+::: {.column width="33%"}
+\textcolor{red}{$\cdot$ Vector}
+:::
+::: {.column width="33%"}
+\textcolor{blue}{$\cdot$ Scalar}
 :::
 ::::::::::::::
 
