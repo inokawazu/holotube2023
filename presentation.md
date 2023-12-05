@@ -283,7 +283,7 @@ Non-Hydrodynamic Modes
 - The Emergence of Hydrodynamics
 - Stability
 
-## $\mathcal K' = \mathcal J + 2$ Tensor Sector {.squeeze }
+## $\mathcal K' = \mathcal J + 2$ Tensor Sector
 
 <!-- NOTE: backup slide pole dance slide here? -->
 
@@ -309,16 +309,19 @@ $\mathcal K' = \mathcal J + 2$; $h_{++}$
 :::
 ::::::::::::::
 
-<!-- TODO: but momentum into their own column -->
-
-$a/\ell \in \{0, 1/2, 9/10\}$
-
+:::::::::::::: {.columns align=center}
+::: {.column width="50%"}
+$a/\ell \in \{0, 1/2, 9/10\}$  
 $\mathcal K' = \mathcal J + 1$; $h_{+r}$, $h_{+t}$, $h_{+3}$ (, and $h_{++}$ if $\mathcal J \geq 1$)
-
+:::
+::: {.column width="50%"}
 $\mathcal J = 0, 1/2, 1, \ldots, 199/2, 100$, $r_+/\ell = 10$  
 $\bigtriangleup \equiv \mathcal J = 0$, $\bigoplus \equiv \mathcal J = 100$
+:::
+::::::::::::::
 
-## $\mathcal K' = \mathcal J$ Scalar Fluctuations {.squeeze}
+
+## $\mathcal K' = \mathcal J$ Scalar Fluctuations
 
 :::::::::::::: {.columns}
 ::: {.column width="33%"}
@@ -332,13 +335,17 @@ $\bigtriangleup \equiv \mathcal J = 0$, $\bigoplus \equiv \mathcal J = 100$
 :::
 ::::::::::::::
 
-$a/\ell \in \{0, 1/2, 9/10\}$
-
+:::::::::::::: {.columns align=center}
+::: {.column width="50%"}
+$a/\ell \in \{0, 1/2, 9/10\}$  
 $\mathcal K' = \mathcal J$, $h_{+-}$; $h_{ab}$ where $a,b \in \{r,t,3\}$  
 (, $h_{+r}$, $h_{+t}$, $h_{+3}$ if $\mathcal J \geq 1$ ) (, and $h_{++}$ if $\mathcal J \geq 2$)
-
+:::
+::: {.column width="50%"}
 $\mathcal J = 0, 1/2, 1, \ldots, 199/2, 100$, $r_+/\ell = 10$  
 $\bigtriangleup \equiv \mathcal J = 0$, $\bigoplus \equiv \mathcal J = 100$
+:::
+::::::::::::::
 
 ## Cross Spectrum Comparisons
 
