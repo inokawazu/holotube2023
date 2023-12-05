@@ -347,20 +347,6 @@ $\bigtriangleup \equiv \mathcal J = 0$, $\bigoplus \equiv \mathcal J = 100$
 :::
 ::::::::::::::
 
-## Cross Spectrum Comparisons
-
-<!-- TODO: include color coding -->
-<!-- TODO: move after emergence of hydro -->
-
-:::::::::::::: {.columns}
-::: {.column width="50%"}
-![](figures/all_sectors_compared_ef_spherical_over_a0.pdf){ width=100% }
-:::
-::: {.column width="50%"}
-![](figures/all_sectors_compared_ef_spherical_over_a1_2.pdf){ width=100% }
-:::
-::::::::::::::
-
 ## The Emergence of Hydrodynamics
 
 
@@ -397,6 +383,19 @@ To see the emergence of hydrodynamics, we fitted the data to the equation below 
 \begin{equation}
     \omega = v \mathcal J^\beta - i D \mathcal J^\alpha
 \end{equation}
+:::
+::::::::::::::
+
+## Cross Spectrum Comparisons
+
+<!-- TODO: include color coding -->
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+![](figures/all_sectors_compared_ef_spherical_over_a0.pdf){ width=100% }
+:::
+::: {.column width="50%"}
+![](figures/all_sectors_compared_ef_spherical_over_a1_2.pdf){ width=100% }
 :::
 ::::::::::::::
 
